@@ -17,6 +17,12 @@
 * The user enters a number they want in the IP range
 * Program will find a /24 block where that number appears in every IP address.
 
+### How should the program find this
+* Text file of all possible /24 blocks
+* Find string in each row (ignore `.`)
+* Print all possible results
+
+
 ## Example
 
 * User says they want the number `123` in their block.
