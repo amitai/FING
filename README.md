@@ -9,6 +9,3 @@ FING will generate a list of /24 blocks for all RFC1918-compliant private addres
 It will then prompt the user for an integer, and compile all matching results in an
 output file.  It will show five random results and then allow the user to view the
 rest with its favorite text viewer.
-
-In addition to regular bash commands like `wc` and `shuf`, this script also needs
-`gawk` to run.  
