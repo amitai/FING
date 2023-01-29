@@ -83,7 +83,9 @@ echo "Do you want to see all results?
  (v)im
  (l)ess
  (c)at
+ (d)efault text viewer (open)
 e(x)it"
+
 read -n1 GOGO
 case $GOGO in
     v)
@@ -94,6 +96,9 @@ case $GOGO in
         ;;
     c)
         cat $FING
+        ;;
+    d) 
+        open $FING
         ;;
     x)
         echo "cya, open $FING later."
